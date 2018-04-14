@@ -2,7 +2,7 @@
 // @name         5 Star One Key
 // @version      0.30
 // @description  Give five star with single click
-// @updateURL    https://github.com/jqqqqqqqqqq/5StarOneKey/raw/master/5%20Star%20One%20Key.user.js
+// @updateURL    https://github.com/Leafflew/MakeOPRGreatAgain/raw/master/5StarOneKey.user.js
 // @downloadURL  https://github.com/jqqqqqqqqqq/5StarOneKey/raw/master/5%20Star%20One%20Key.user.js
 // @author       jqqqqqqqqqq
 // @match        https://opr.ingress.com/recon
@@ -13,10 +13,11 @@
 var auto_select = true;
 
 var buttons = [
-    {button:"Five Star", total:5, name:5, history:5, unique:5, location:5, safety:5},
-    {button:"553355", total:5, name:5, history:3, unique:3, location:5, safety:5},
-    {button:"533355", total:5, name:3, history:3, unique:3, location:5, safety:5},
-    {button:"353344", total:3, name:5, history:3, unique:3, location:4, safety:4},
+    {button:"555555", total:5, name:5, history:5, unique:5, location:5, safety:5},
+    {button:"554455", total:5, name:5, history:4, unique:4, location:5, safety:5},
+    {button:"443354", total:4, name:4, history:3, unique:3, location:5, safety:4},
+    {button:"343343", total:3, name:4, history:3, unique:3, location:4, safety:3},
+    {button:"233333", total:2, name:3, history:3, unique:3, location:3, safety:3},
 ];
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -53,7 +54,7 @@ function update_button_list(){
             case "answerCtrl.formData.quality":
                 button_list['total'].push($(this));
                 $(this).css({'margin-bottom': '10px'});
-                $(this).children('span').css({'font-size': '42px'});
+                $(this).children('span').css({'font-size': '36px'});
                 $(this).css({'margin-left': '5px'});
                 $(this).css({'margin-right': '5px'});
                 break;
